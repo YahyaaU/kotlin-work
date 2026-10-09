@@ -6,7 +6,7 @@ import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
     if (args.size < 3) {
-        println("neeed to put 3 values for each side fo the triangle a, b and c in on the command line")
+        println("Error: values for a, b, c required on command line")
         exitProcess(1)
     }
  
